@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "My play with markdown"
 output: github_document
 ---
 
@@ -23,8 +23,8 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r}
+plot(pressure, xlab="Something else", col="blue")
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
